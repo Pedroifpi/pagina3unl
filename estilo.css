@@ -1,0 +1,167 @@
+/* Resetando margens e bordas padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Configurações globais */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: #ffffff;
+    border-bottom: 2px solid #ddd;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: #c93a77;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #333;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #c93a77;
+}
+
+.icons a {
+    margin-left: 20px;
+}
+
+.icons img {
+    width: 24px;
+    height: 24px;
+}
+
+main {
+    width: 100%;
+    max-width: 1200px;
+    margin-top: 40px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.manicure-info {
+    width: 45%;
+}
+
+.info-card {
+    background-color: #fce4ec;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.info-card h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.info-card ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.location {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #777;
+}
+
+.rating span {
+    font-size: 20px;
+    color: #ffcc00;
+}
+
+.scheduling {
+    width: 50%;
+}
+
+.scheduling h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.schedule-list {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.day {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 45%;
+}
+
+.day h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #c93a77;
+}
+
+.day ul {
+    list-style-type: none;
+    color: #555;
+}
+
+.continue-btn {
+    padding: 10px 20px;
+    background-color: #c93a77;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.continue-btn:hover {
+    background-color: #d84c8a;
+}
+
+footer {
+    width: 100%;
+    max-width: 1200px;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 14px;
+    color: #777;
+    border-top: 2px solid #ddd;
+    margin-top: 40px;
+}
